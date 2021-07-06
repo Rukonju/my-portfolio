@@ -3,7 +3,7 @@ h1{
     font-size: 50px;
 }
 #my-portfolio{
-    color:rgb(10, 4, 90);
+    color:rgb(211, 102, 38);
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -11,7 +11,7 @@ body{
 }
 #section-1 {
     display: flex;
-    margin: 150px;
+    margin: 100px;
 }
 .half-width{
     width: 50%;
@@ -36,4 +36,25 @@ body{
     background-repeat: no-repeat;
     
     
+}
+.box{
+    box-shadow: 10px 10px  40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-left: 10px solid;
+    border-radius:10px ;
+    border-image: linear-gradient(orange, rgb(241, 94, 9));
+    border-image-slice: 1;
+}
+.ex{
+    margin-left: 160px;
+    margin-bottom: 5px;
+
+}
+.footer{
+    text-align: center;
+    font-weight: 700px;
+    margin-bottom: 10px;
 }
