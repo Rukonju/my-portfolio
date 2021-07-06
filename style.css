@@ -9,9 +9,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     margin:0px;
 }
-section{
+#section-1 {
     display: flex;
-    margin: 0px;
+    margin: 150px;
 }
 .half-width{
     width: 50%;
@@ -30,7 +30,7 @@ section{
     font-weight:700px ;
 
 }
-#section-1{
+body{
     background-image: url(image/bg-corner.png)  ;
     
     background-repeat: no-repeat;
